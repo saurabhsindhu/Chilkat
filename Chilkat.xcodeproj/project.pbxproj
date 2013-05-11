@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE22F252173E09C300E2645B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE22F251173E09C300E2645B /* UIKit.framework */; };
+		FE22F254173E09C300E2645B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE22F253173E09C300E2645B /* Foundation.framework */; };
+		FE22F256173E09C300E2645B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE22F255173E09C300E2645B /* CoreGraphics.framework */; };
+		FE22F25C173E09C300E2645B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE22F25A173E09C300E2645B /* InfoPlist.strings */; };
+		FE22F25E173E09C300E2645B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE22F25D173E09C300E2645B /* main.m */; };
+		FE22F262173E09C300E2645B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE22F261173E09C300E2645B /* AppDelegate.m */; };
+		FE22F264173E09C300E2645B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FE22F263173E09C300E2645B /* Default.png */; };
+		FE22F266173E09C300E2645B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE22F265173E09C300E2645B /* Default@2x.png */; };
+		FE22F268173E09C300E2645B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE22F267173E09C300E2645B /* Default-568h@2x.png */; };
+		FE22F26B173E09C300E2645B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE22F26A173E09C300E2645B /* ViewController.m */; };
+		FE22F26E173E09C300E2645B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE22F26C173E09C300E2645B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE22F24E173E09C300E2645B /* Chilkat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chilkat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE22F251173E09C300E2645B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE22F253173E09C300E2645B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE22F255173E09C300E2645B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE22F259173E09C300E2645B /* Chilkat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chilkat-Info.plist"; sourceTree = "<group>"; };
+		FE22F25B173E09C300E2645B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE22F25D173E09C300E2645B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE22F25F173E09C300E2645B /* Chilkat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chilkat-Prefix.pch"; sourceTree = "<group>"; };
+		FE22F260173E09C300E2645B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE22F261173E09C300E2645B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE22F263173E09C300E2645B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FE22F265173E09C300E2645B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FE22F267173E09C300E2645B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FE22F269173E09C300E2645B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE22F26A173E09C300E2645B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE22F26D173E09C300E2645B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE22F24B173E09C300E2645B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE22F252173E09C300E2645B /* UIKit.framework in Frameworks */,
+				FE22F254173E09C300E2645B /* Foundation.framework in Frameworks */,
+				FE22F256173E09C300E2645B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE22F245173E09C300E2645B = {
+			isa = PBXGroup;
+			children = (
+				FE22F257173E09C300E2645B /* Chilkat */,
+				FE22F250173E09C300E2645B /* Frameworks */,
+				FE22F24F173E09C300E2645B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE22F24F173E09C300E2645B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE22F24E173E09C300E2645B /* Chilkat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE22F250173E09C300E2645B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE22F251173E09C300E2645B /* UIKit.framework */,
+				FE22F253173E09C300E2645B /* Foundation.framework */,
+				FE22F255173E09C300E2645B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE22F257173E09C300E2645B /* Chilkat */ = {
+			isa = PBXGroup;
+			children = (
+				FE22F260173E09C300E2645B /* AppDelegate.h */,
+				FE22F261173E09C300E2645B /* AppDelegate.m */,
+				FE22F269173E09C300E2645B /* ViewController.h */,
+				FE22F26A173E09C300E2645B /* ViewController.m */,
+				FE22F26C173E09C300E2645B /* ViewController.xib */,
+				FE22F258173E09C300E2645B /* Supporting Files */,
+			);
+			path = Chilkat;
+			sourceTree = "<group>";
+		};
+		FE22F258173E09C300E2645B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE22F259173E09C300E2645B /* Chilkat-Info.plist */,
+				FE22F25A173E09C300E2645B /* InfoPlist.strings */,
+				FE22F25D173E09C300E2645B /* main.m */,
+				FE22F25F173E09C300E2645B /* Chilkat-Prefix.pch */,
+				FE22F263173E09C300E2645B /* Default.png */,
+				FE22F265173E09C300E2645B /* Default@2x.png */,
+				FE22F267173E09C300E2645B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE22F24D173E09C300E2645B /* Chilkat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE22F271173E09C300E2645B /* Build configuration list for PBXNativeTarget "Chilkat" */;
+			buildPhases = (
+				FE22F24A173E09C300E2645B /* Sources */,
+				FE22F24B173E09C300E2645B /* Frameworks */,
+				FE22F24C173E09C300E2645B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chilkat;
+			productName = Chilkat;
+			productReference = FE22F24E173E09C300E2645B /* Chilkat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE22F246173E09C300E2645B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "saurabh sindhu";
+			};
+			buildConfigurationList = FE22F249173E09C300E2645B /* Build configuration list for PBXProject "Chilkat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE22F245173E09C300E2645B;
+			productRefGroup = FE22F24F173E09C300E2645B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE22F24D173E09C300E2645B /* Chilkat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE22F24C173E09C300E2645B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE22F25C173E09C300E2645B /* InfoPlist.strings in Resources */,
+				FE22F264173E09C300E2645B /* Default.png in Resources */,
+				FE22F266173E09C300E2645B /* Default@2x.png in Resources */,
+				FE22F268173E09C300E2645B /* Default-568h@2x.png in Resources */,
+				FE22F26E173E09C300E2645B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE22F24A173E09C300E2645B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE22F25E173E09C300E2645B /* main.m in Sources */,
+				FE22F262173E09C300E2645B /* AppDelegate.m in Sources */,
+				FE22F26B173E09C300E2645B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE22F25A173E09C300E2645B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE22F25B173E09C300E2645B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE22F26C173E09C300E2645B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE22F26D173E09C300E2645B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE22F26F173E09C300E2645B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE22F270173E09C300E2645B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE22F272173E09C300E2645B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chilkat/Chilkat-Prefix.pch";
+				INFOPLIST_FILE = "Chilkat/Chilkat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE22F273173E09C300E2645B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chilkat/Chilkat-Prefix.pch";
+				INFOPLIST_FILE = "Chilkat/Chilkat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE22F249173E09C300E2645B /* Build configuration list for PBXProject "Chilkat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE22F26F173E09C300E2645B /* Debug */,
+				FE22F270173E09C300E2645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE22F271173E09C300E2645B /* Build configuration list for PBXNativeTarget "Chilkat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE22F272173E09C300E2645B /* Debug */,
+				FE22F273173E09C300E2645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE22F246173E09C300E2645B /* Project object */;
+}

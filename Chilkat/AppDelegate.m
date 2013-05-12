@@ -10,21 +10,30 @@
 
 #import "ViewController.h"
 
+#import "GlobalVal.h"
+
 @implementation AppDelegate
+@synthesize navigationController = _navigationController;
+@synthesize viewController = _viewController;
 
 - (void)dealloc
 {
     [_window release];
     [_viewController release];
+    [_navigationController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    g_val = [[GlobalVal alloc] init];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    ViewController *rootView = [[[ViewController alloc] init] autorelease];
+    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:rootView] autorelease];
+    [self.navigationController.navigationBar setHidden:YES];
+    
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
